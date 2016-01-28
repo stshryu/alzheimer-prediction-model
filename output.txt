@@ -1,4 +1,14 @@
-++++++++####### NEW FILE #######++++++++
+++++++++####### GDS1979_full.soft #######++++++++
+!dataset_title = Amyloid precursor protein intracellular domain effect on neural cells
+!dataset_description = Analysis of neural cells induced to express amyloid precursor protein (APP) intracellular domain (AICD) or the combination of AICD and its co-activator Fe65. Secretase processing of APP produces beta-amyloid, the main constituent of Alzheimer plaques, and AICD. Results identify target genes of AICD.
+!dataset_pubmed_id = 17093061
+!dataset_platform = GPL96
+!dataset_platform_organism = Homo sapiens
+!dataset_platform_technology_type = in situ oligonucleotide
+!dataset_sample_count = 6
+!dataset_reference_series = GSE4097
+!dataset_update_date = Jun 14 2006
+++++++++####### GDS2601_full.soft #######++++++++
 !dataset_title = Alzheimer blood mononuclear cells
 !dataset_description = Analysis of blood mononuclear cells of sporadic Alzheimer disease (AD) and age- gender-matched normal controls. Results reveal insights into systemic nature of gene dys-regulation in sporadic AD and suggest novel pathways of beta-amyloid deposition.
 !dataset_pubmed_id = 16979800
@@ -9,7 +19,7 @@
 !dataset_sample_count = 28
 !dataset_reference_series = GSE4226
 !dataset_update_date = Oct 10 2012
-++++++++####### NEW FILE #######++++++++
+++++++++####### GDS2795_full.soft #######++++++++
 !dataset_title = Alzheimer's disease: neurofibrillary tangles
 !dataset_description = Analysis of entorhinal cortex neurons containing neurofibrillary tangles (NFT) from 10 mid-stage Alzheimer's disease (AD) patients. Comparison with histopathologically normal neurons from the same patients and brain region. Results provide insight into the formation of NFTs in AD.
 !dataset_pubmed_id = 16242812
@@ -19,7 +29,7 @@
 !dataset_sample_count = 20
 !dataset_reference_series = GSE4757
 !dataset_update_date = Oct 10 2012
-++++++++####### NEW FILE #######++++++++
+++++++++####### GDS4135_full.soft #######++++++++
 !dataset_title = Postmortem temporal cortex from Medical Research Council Cognitive Function and Ageing Study (MRC-CFAS) cohort: astrocytes
 !dataset_description = Analysis of GFAP+ astrocytes representing different Braak stages and ApoE genotypes, in post-mortem temporal cortex samples. Astrocytes synthesize ApoE, which is involved in the astrocytic clearance of aggregated β-amyloid plaques. Results provide insight into role of ApoE in Alzheimer's pathology.
 !dataset_pubmed_id = 21705112
@@ -29,7 +39,7 @@
 !dataset_sample_count = 18
 !dataset_reference_series = GSE29652
 !dataset_update_date = Jun 13 2012
-++++++++####### NEW FILE #######++++++++
+++++++++####### GDS4136_full.soft #######++++++++
 !dataset_title = Various stages of Alzheimer's disease: laser-captured hippocampal CA1 gray matter
 !dataset_description = Analysis of laser-captured hippocampal CA1 gray matter from FFPE hippocampal sections of subjects at varying stages (incipient, moderate, severe) of Alzheimer’s disease (AD). Results provide insight into gray matter-specific molecular mechanisms underlying AD.
 !dataset_pubmed_id = 21756998
@@ -39,7 +49,7 @@
 !dataset_sample_count = 30
 !dataset_reference_series = GSE28146
 !dataset_update_date = Jun 13 2012
-++++++++####### NEW FILE #######++++++++
+++++++++####### GDS4141_full.soft #######++++++++
 !dataset_title = Alzheimer's disease: induced pluripotent stem cells with Presenilin 2 mutation (N141)
 !dataset_description = Analysis of 2 iPSC clones with presenilin 2 (PS2) mutation N141, established by retroviral transduction of fibroblasts from a Familial Alzheimer’s disease (FAD) patient. PS2 mutations are causative factors for autosomal-dominant early-onset FAD. Results provide insight into molecular basis of FAD.
 !dataset_pubmed_id = 21900357
@@ -49,7 +59,7 @@
 !dataset_sample_count = 4
 !dataset_reference_series = GSE28379
 !dataset_update_date = Jun 14 2012
-++++++++####### NEW FILE #######++++++++
+++++++++####### GDS4758_full.soft #######++++++++
 !dataset_title = Postmortem Alzheimer's disease brains: Hisayama study
 !dataset_description = Analysis of postmortem brain tissues (frontal cortex, temporal cortex, hippocampus) from male and female Hisayama residents pathologically diagnosed as having Alzheimer's disease (AD) or an AD-like disorder. Results provide insight into the molecular mechanisms underlying AD brain pathology.
 !dataset_pubmed_id = 23595620
@@ -59,7 +69,7 @@
 !dataset_sample_count = 79
 !dataset_reference_series = GSE36980
 !dataset_update_date = Mar 11 2014
-++++++++####### NEW FILE #######++++++++
+++++++++####### GDS810_full.soft #######++++++++
 !dataset_title = Alzheimer's disease at various stages of severity
 !dataset_description = Expression profiling of brain hippocampi from 22 postmortem subjects with Alzheimer's disease (AD) at various stages of severity.  7, 8, and 7 subjects diagnosed with incipient, moderate, and severe AD respectively.  Results provide insight into mechanisms underlying the early pathogenesis of AD.
 !dataset_pubmed_id = 14769913
@@ -69,3 +79,53 @@
 !dataset_sample_count = 31
 !dataset_reference_series = GSE1297
 !dataset_update_date = Oct 10 2012
+++++++++####### GSE31163_family.soft #######++++++++
+!Series_title = Human induced pluripotent stem cells derived from a sporadic Alzheimer's disease patient
+!Series_last_update_date = Dec 31 2015
+!Series_summary = Induced pluripotent stem cell (iPSC) disease models have been generated for a number of diseases, and some have shown their potential utilization for pathological and drug toxicological evaluations. We have generated two hiPSC clones from a non-familial Alzheimer’s patient (AD-iPSCs), which expressed typical undifferentiated markers and fulfilled standard pluripotency assays. Genome-wide microarray analysis revealed that AD-iPSCs are highly similar to control hiPSCs and hESCs, albeit with some noticeable differences in several genes: DNAJC15, GRPR, NAIP and SNORD116-18. Several other biomarkers were differentially expressed in AD-iPSC clones, which were implicated in memory impairment and AD. Furthermore, well characterized familial AD-associated genes (APP, PSEN1, PSEN2) and non-familial (A2M, APOE, GAP43, MAOA, MPO, PLAT, PLAU, SORL1, SNCA) exhibited different expression patterns but were largely reset upon reprogramming into a pluripotent state. Overall, hiPSCs can be good candidates for AD modeling and may represent an in vitro alternative to studying disease mechanisms and drug discovery/toxicology studies.
+!Series_type = Expression profiling by array
+!Series_platform_id = GPL6244
+!Series_relation = BioProject: http://www.ncbi.nlm.nih.gov/bioproject/PRJNA144799
+!Platform_technology = in situ oligonucleotide
+!Platform_organism = Homo sapiens
+++++++++####### GSE42492_family.soft #######++++++++
+!Series_title = Induced pluripotent stem cell-derived neurons from a sporadic Alzheimer disease donor as a model for investigating disease mechanisms
+!Series_last_update_date = Apr 21 2015
+!Series_pubmed_id = 25765079
+!Series_summary = Gene expression analysis of control fibroblasts (NFH2), one AD-derived fibroblasts (NFH-46), NFH2-derived control-iPS cells (OiPS3, OiPS6), NFH46-derived AD-iPS cells (iPS5 and iPS 26B),  hESCs (H1 and H9).
+!Series_type = Expression profiling by array
+!Series_platform_id = GPL6883
+!Series_relation = BioProject: http://www.ncbi.nlm.nih.gov/bioproject/PRJNA182145
+!Platform_technology = oligonucleotide beads
+!Platform_organism = Homo sapiens
+++++++++####### GSE67333_family.soft #######++++++++
+!Series_title = Transcriptomics profiling of Alzheimer’s disease reveal novel molecular targets
+!Series_last_update_date = Jan 21 2016
+!Series_pubmed_id = 26402107
+!Series_summary = Our data provide a comprehensive list of transcriptomics alterations and warrant holistic approach including both coding and non-coding RNAs in functional studies aimed to understand the pathophysiology of LOAD
+!Series_type = Expression profiling by high throughput sequencing
+!Series_platform_id = GPL11154
+!Series_relation = BioProject: http://www.ncbi.nlm.nih.gov/bioproject/PRJNA279526
+!Series_relation = SRA: http://www.ncbi.nlm.nih.gov/sra?term=SRP056604
+!Platform_technology = high-throughput sequencing
+!Platform_organism = Homo sapiens
+++++++++####### GSE69480_family.soft #######++++++++
+!Series_title = Direct conversion of normal and patient human fibroblasts into neuronal cells
+!Series_last_update_date = Jul 30 2015
+!Series_pubmed_id = 26253202
+!Series_summary = Neuronal conversion from human fibroblasts can be induced by lineage-specific transcription factors, holding great promise for human neurological disease modeling and regenerative medicine. However, the introduction of ectopic genes limits their therapeutic applications. Here, we report that neuronal cells could be directly induced from human fibroblasts by a chemical cocktail of seven small molecules bypassing neural progenitor stage. These chemical-induced neuronal cells (hciN cells) resembled hES-derived neurons regarding morphology, gene expression profiles, and electrophysiological properties. Our further experiments show that hciN cells were able to develop into mature neurons in vivo in embryonic mouse brain. Moreover, this approach was further applied to induce hciN cells from fibroblasts of familial Alzheimer’s disease patients and the hciN cells showed abnormal Aβ production. Together, we established a transgene-free chemical approach to directly induce neuronal cells from human fibroblasts, thus providing alternative strategies for modeling of related neurological diseases and regenerative medicine.
+!Series_summary = We used microarray to comparethe global gene expression patterns of hES-derived neurons (control neurons), HAFs, pre-hciN cells (VCRFSGY-treated HAFs at day 3 and 7) and hciN cells (induced with VCRFSGY for 14 days)
+!Series_type = Expression profiling by array
+!Series_platform_id = GPL15207
+!Series_relation = BioProject: http://www.ncbi.nlm.nih.gov/bioproject/PRJNA285692
+!Platform_technology = in situ oligonucleotide
+!Platform_organism = Homo sapiens
+++++++++####### GSE72538_family.soft #######++++++++
+!Series_title = Amyloid protein-mediated differential DNA methylation status regulates gene expression in Alzheimer’s disease model cell line.
+!Series_last_update_date = Sep 08 2015
+!Series_summary = Genome wide DNA methylation profiling of human neuroglioma cell line (H4) and the Swedish double mutant-harboring H4 cell line (H4-sw). The Illumina Infinium 27k Human DNA methylation Beadchip was used to obtain DNA methylation profiles across approximately 27,000 CpGs in 2 cell lines, H4 and H4-sw.
+!Series_type = Methylation profiling by array
+!Series_platform_id = GPL8490
+!Series_relation = BioProject: http://www.ncbi.nlm.nih.gov/bioproject/PRJNA294291
+!Platform_technology = oligonucleotide beads
+!Platform_organism = Homo sapiens
