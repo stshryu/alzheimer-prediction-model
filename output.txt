@@ -1,0 +1,71 @@
+++++++++####### NEW FILE #######++++++++
+!dataset_title = Alzheimer blood mononuclear cells
+!dataset_description = Analysis of blood mononuclear cells of sporadic Alzheimer disease (AD) and age- gender-matched normal controls. Results reveal insights into systemic nature of gene dys-regulation in sporadic AD and suggest novel pathways of beta-amyloid deposition.
+!dataset_pubmed_id = 16979800
+!dataset_pubmed_id = 19366883
+!dataset_platform = GPL1211
+!dataset_platform_organism = Homo sapiens
+!dataset_platform_technology_type = spotted DNA/cDNA
+!dataset_sample_count = 28
+!dataset_reference_series = GSE4226
+!dataset_update_date = Oct 10 2012
+++++++++####### NEW FILE #######++++++++
+!dataset_title = Alzheimer's disease: neurofibrillary tangles
+!dataset_description = Analysis of entorhinal cortex neurons containing neurofibrillary tangles (NFT) from 10 mid-stage Alzheimer's disease (AD) patients. Comparison with histopathologically normal neurons from the same patients and brain region. Results provide insight into the formation of NFTs in AD.
+!dataset_pubmed_id = 16242812
+!dataset_platform = GPL570
+!dataset_platform_organism = Homo sapiens
+!dataset_platform_technology_type = in situ oligonucleotide
+!dataset_sample_count = 20
+!dataset_reference_series = GSE4757
+!dataset_update_date = Oct 10 2012
+++++++++####### NEW FILE #######++++++++
+!dataset_title = Postmortem temporal cortex from Medical Research Council Cognitive Function and Ageing Study (MRC-CFAS) cohort: astrocytes
+!dataset_description = Analysis of GFAP+ astrocytes representing different Braak stages and ApoE genotypes, in post-mortem temporal cortex samples. Astrocytes synthesize ApoE, which is involved in the astrocytic clearance of aggregated β-amyloid plaques. Results provide insight into role of ApoE in Alzheimer's pathology.
+!dataset_pubmed_id = 21705112
+!dataset_platform = GPL570
+!dataset_platform_organism = Homo sapiens
+!dataset_platform_technology_type = in situ oligonucleotide
+!dataset_sample_count = 18
+!dataset_reference_series = GSE29652
+!dataset_update_date = Jun 13 2012
+++++++++####### NEW FILE #######++++++++
+!dataset_title = Various stages of Alzheimer's disease: laser-captured hippocampal CA1 gray matter
+!dataset_description = Analysis of laser-captured hippocampal CA1 gray matter from FFPE hippocampal sections of subjects at varying stages (incipient, moderate, severe) of Alzheimer’s disease (AD). Results provide insight into gray matter-specific molecular mechanisms underlying AD.
+!dataset_pubmed_id = 21756998
+!dataset_platform = GPL570
+!dataset_platform_organism = Homo sapiens
+!dataset_platform_technology_type = in situ oligonucleotide
+!dataset_sample_count = 30
+!dataset_reference_series = GSE28146
+!dataset_update_date = Jun 13 2012
+++++++++####### NEW FILE #######++++++++
+!dataset_title = Alzheimer's disease: induced pluripotent stem cells with Presenilin 2 mutation (N141)
+!dataset_description = Analysis of 2 iPSC clones with presenilin 2 (PS2) mutation N141, established by retroviral transduction of fibroblasts from a Familial Alzheimer’s disease (FAD) patient. PS2 mutations are causative factors for autosomal-dominant early-onset FAD. Results provide insight into molecular basis of FAD.
+!dataset_pubmed_id = 21900357
+!dataset_platform = GPL570
+!dataset_platform_organism = Homo sapiens
+!dataset_platform_technology_type = in situ oligonucleotide
+!dataset_sample_count = 4
+!dataset_reference_series = GSE28379
+!dataset_update_date = Jun 14 2012
+++++++++####### NEW FILE #######++++++++
+!dataset_title = Postmortem Alzheimer's disease brains: Hisayama study
+!dataset_description = Analysis of postmortem brain tissues (frontal cortex, temporal cortex, hippocampus) from male and female Hisayama residents pathologically diagnosed as having Alzheimer's disease (AD) or an AD-like disorder. Results provide insight into the molecular mechanisms underlying AD brain pathology.
+!dataset_pubmed_id = 23595620
+!dataset_platform = GPL6244
+!dataset_platform_organism = Homo sapiens
+!dataset_platform_technology_type = in situ oligonucleotide
+!dataset_sample_count = 79
+!dataset_reference_series = GSE36980
+!dataset_update_date = Mar 11 2014
+++++++++####### NEW FILE #######++++++++
+!dataset_title = Alzheimer's disease at various stages of severity
+!dataset_description = Expression profiling of brain hippocampi from 22 postmortem subjects with Alzheimer's disease (AD) at various stages of severity.  7, 8, and 7 subjects diagnosed with incipient, moderate, and severe AD respectively.  Results provide insight into mechanisms underlying the early pathogenesis of AD.
+!dataset_pubmed_id = 14769913
+!dataset_platform = GPL96
+!dataset_platform_organism = Homo sapiens
+!dataset_platform_technology_type = in situ oligonucleotide
+!dataset_sample_count = 31
+!dataset_reference_series = GSE1297
+!dataset_update_date = Oct 10 2012
