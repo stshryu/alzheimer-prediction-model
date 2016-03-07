@@ -9,11 +9,19 @@ print('----====----')
 baseCSVFile = input('Enter filename of Probe/Gene ID\'s: ')
 if os.path.isfile(baseCSVFile) is True:
     pass
+###### FOR DEBUGGING ONLY ######
+elif baseCSVFile == 'skip':
+    pass
+################################
 else:
     sys.exit('Input file could not be found, aborting script')
 while True:
     try:
-        baseCSV = open(baseCSVFile)
+        ###### FOR DEBUGGING ONLY ######
+        if baseCSVFile == 'skip':
+            break;
+        ################################
+        baseCsv = open(baseCSVFile)
         break;
     except OSError:
         sys.exit('File cannot be opened, please check case sensitivity and file extension')
@@ -25,10 +33,18 @@ print('----====----')
 baseDatasetFile = input('Enter filename of Dataset: ')
 if os.path.isfile(baseDatasetFile) is True:
     pass
+###### FOR DEBUGGING ONLY ######
+elif baseDatasetFile == 'skip':
+    pass
+################################
 else:
     sys.exit('Input file could not be found, aborting script')
 while True:
     try:
+        ###### FOR DEBUGGING ONLY ######
+        if baseCSVFile == 'skip':
+            break;
+        ################################
         baseDataset = open(baseDatasetFile)
         break;
     except OSError:
@@ -36,3 +52,12 @@ while True:
         break;
 print('dataset file is: ' + baseDatasetFile)
 print('----====----')
+
+# Write probe-gene ID to hash table
+geneProbe_ID = {'Probe_ID':'Gene_Name'}
+for line in baseCsv:
+    line.strip()
+    key_value = line.split(',')
+    geneProbe_ID[key_value[0]] = key_value[1]
+
+print(geneProbe_ID)
