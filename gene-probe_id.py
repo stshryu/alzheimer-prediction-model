@@ -1,2 +1,38 @@
-# Script to combine gene id and probe id on .soft and .family studies.
-# File won't open...
+from os import walk
+import os.path
+import sys
+
+print('Input is case and space sensitive! Including file extension: \'.csv\', \'.txt\', etc...')
+print('----====----')
+
+# Attempt to open the baseCSV file with gene and probe id's (throw exception and quit if file cannot be found, or opened)
+baseCSVFile = input('Enter filename of Probe/Gene ID\'s: ')
+if os.path.isfile(baseCSVFile) is True:
+    pass
+else:
+    sys.exit('Input file could not be found, aborting script')
+while True:
+    try:
+        baseCSV = open(baseCSVFile)
+        break;
+    except OSError:
+        sys.exit('File cannot be opened, please check case sensitivity and file extension')
+        break;
+print('input file is: ' + baseCSVFile)
+print('----====----')
+
+# Attempt to open the baseDataset file (throw exception and quit if file cannot be found or opened)
+baseDatasetFile = input('Enter filename of Dataset: ')
+if os.path.isfile(baseDatasetFile) is True:
+    pass
+else:
+    sys.exit('Input file could not be found, aborting script')
+while True:
+    try:
+        baseDataset = open(baseDatasetFile)
+        break;
+    except OSError:
+        sys.exit('File cannot be opened, please check case sensitivity and file extension')
+        break;
+print('dataset file is: ' + baseDatasetFile)
+print('----====----')
