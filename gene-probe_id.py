@@ -42,10 +42,10 @@ else:
 while True:
     try:
         ###### FOR DEBUGGING ONLY ######
-        if baseCSVFile == 'skip':
+        if baseDatasetFile == 'skip':
             break;
         ################################
-        baseDataset = open(baseDatasetFile)
+        baseDataset = open(baseDatasetFile, 'r+')
         break;
     except OSError:
         sys.exit('File cannot be opened, please check case sensitivity and file extension')
@@ -56,8 +56,14 @@ print('----====----')
 # Write probe-gene ID to hash table
 geneProbe_ID = {'Probe_ID':'Gene_Name'}
 for line in baseCsv:
-    line.strip()
     key_value = line.split(',')
     geneProbe_ID[key_value[0]] = key_value[1]
 
-print(geneProbe_ID)
+# Parse through dataset to see if matching Probe ID exists
+for line in baseDataset:
+    datasetLine = line.split('\t')
+    for item in geneProbe_ID:
+        if item in datasetLine:
+            datasetLine.append(geneProbe_ID[item])
+            print(datasetLine)
+            baseDataset.write(datasetLine)
