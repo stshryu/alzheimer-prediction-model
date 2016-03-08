@@ -28,7 +28,10 @@ while True:
         break;
 print('input file is: ' + baseCSVFile)
 print('----====----')
-
+# Check for type of file (comma or tab)
+tabOrComma = input('Is the dataset file TAB or COMMA delimited? (T or Tab, C or Comma): ')
+print('Dataset file is delimited by: ' + tabOrComma + 's')
+print('----====----')
 # Attempt to open the baseDataset file (throw exception and quit if file cannot be found or opened)
 baseDatasetFile = input('Enter filename of Dataset: ')
 if os.path.isfile(baseDatasetFile) is True:
@@ -59,17 +62,34 @@ for line in baseCsv:
     key_value = line.split(',')
     geneProbe_ID[key_value[0]] = key_value[1]
 
-# Parse through dataset to see if matching Probe ID exists and write to new dataset
-outputDataset = open("OutputDataset.csv", "w")
-for line in baseDataset:
-    tempLine = line.rstrip('\n')
-    datasetLine = tempLine.split('\t')
-    for item in geneProbe_ID:
-        if item in datasetLine:
-            datasetLine.append(str(geneProbe_ID[item]))
-            print(datasetLine)
-            for item2 in datasetLine:
-                if '\n' in item2:
-                    outputDataset.write(item2)
-                else:
-                    outputDataset.write(item2 + ',')
+# Write probe-gene ID to file
+if 't' or 'tab' in lower(tabOrComma):
+    # Parse through dataset to see if matching Probe ID exists and write to new dataset (TAB DELIMITED)
+    outputDataset = open("OutputDataset.csv", "w")
+    for line in baseDataset:
+        tempLine = line.rstrip('\n')
+        datasetLine = tempLine.split('\t')
+        for item in geneProbe_ID:
+            if item in datasetLine:
+                datasetLine.append(str(geneProbe_ID[item]))
+                print(datasetLine)
+                for item2 in datasetLine:
+                    if '\n' in item2:
+                        outputDataset.write(item2)
+                    else:
+                        outputDataset.write(item2 + ',')
+elif 'c' or 'comma' in lower(tabOrComma):
+    # Parse through dataset to see if matching Probe ID exists and write to new dataset (COMMA DELIMITED)
+    outputDataset = open("OutputDataset.csv", "w")
+    for line in baseDataset:
+        tempLine = line.rstrip('\n')
+        datasetLine = tempLine.split('\t')
+        for item in geneProbe_ID:
+            if item in datasetLine:
+                datasetLine.append(str(geneProbe_ID[item]))
+                print(datasetLine)
+                for item2 in datasetLine:
+                    if '\n' in item2:
+                        outputDataset.write(item2)
+                    else:
+                        outputDataset.write(item2 + ',')
