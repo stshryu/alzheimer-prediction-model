@@ -59,11 +59,13 @@ for line in baseCsv:
     key_value = line.split(',')
     geneProbe_ID[key_value[0]] = key_value[1]
 
-# Parse through dataset to see if matching Probe ID exists
+# Parse through dataset to see if matching Probe ID exists and write to new dataset
+outputDataset = open("OutputDataset.csv", "w")
 for line in baseDataset:
     datasetLine = line.split('\t')
     for item in geneProbe_ID:
         if item in datasetLine:
-            datasetLine.append(geneProbe_ID[item])
+            datasetLine.append(str(geneProbe_ID[item]))
             print(datasetLine)
-            baseDataset.write(datasetLine)
+            for item2 in datasetLine:
+                outputDataset.write(item2 + ',')
