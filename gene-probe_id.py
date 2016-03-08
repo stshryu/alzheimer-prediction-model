@@ -1,4 +1,4 @@
-from os import walk
+# Script to combine Probe and Gene ID
 import os.path
 import sys
 
