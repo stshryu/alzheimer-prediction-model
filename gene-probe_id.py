@@ -1,4 +1,4 @@
-# Script to combine Probe and Gene ID
+# Script to combine Probe and Gene ID :)
 import os.path
 import sys
 
